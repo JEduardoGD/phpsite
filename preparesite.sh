@@ -13,4 +13,5 @@ echo "    if (!\$conn) {" >> src/db.php
 echo "        die(\"Connection failed: \" . mysqli_connect_error());" >> src/db.php
 echo "    }" >> src/db.php
 echo "?>" >> src/db.php
+chmod +x start-apache
 docker build -t phpapp .
