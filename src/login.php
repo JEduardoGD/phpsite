@@ -1,5 +1,10 @@
 <?php
 	include 'header.php';
+
+	// Load DotEnvironment Class
+	require_once('./class.environment.php');
+	$__DotEnvironment = new DotEnvironment(realpath(__DIR__."\.env"))
+	
 	//Start the Session
 	session_start();
 	 require('db.php');

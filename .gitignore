@@ -22,5 +22,4 @@
 
 # End of https://www.toptal.com/developers/gitignore/
 
-db.php
-env.properties
+.env

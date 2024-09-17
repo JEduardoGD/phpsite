@@ -1,8 +1,8 @@
 <?php
+	session_start();
 	require('db.php');
 	include 'header.php';
 	//Check if a user is logged in or not
-	session_start();
 		if (isset($_SESSION['username'])){
 		$username = $_SESSION['username'];
 		//Display a message for logged-in users only
